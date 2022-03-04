@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3A886">
+
+    <EditText
+        android:id="@+id/edtxt_login_email"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="440dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textShortMessage|textEmailAddress"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/edtxt_login_password"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/edtxt_login_email"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/edtxt_login_email"
+        app:layout_constraintTop_toBottomOf="@+id/edtxt_login_email"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Spinner
+        android:id="@+id/spinner_accounttype_login"
+        android:layout_width="294dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Small"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:background="#FFFFFF"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtxt_login_password" />
+
+    <TextView
+        android:id="@+id/btn_gotosignup_fromlogin"
+        android:layout_width="239dp"
+        android:layout_height="35dp"
+        android:text="Havent Signed up? Sign Up now."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal|bold|italic"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_googlesignin_login_activity"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/btn_googlesignin_login_activity"
+        app:layout_constraintTop_toBottomOf="@+id/btn_googlesignin_login_activity"
+        app:layout_constraintVertical_bias="0.263" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_googlesignin_login_activity"
+        android:layout_width="158dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+</androidx.constraintlayout.widget.ConstraintLayout>

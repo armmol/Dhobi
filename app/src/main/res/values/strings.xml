@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dhobi</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="googlesignin_WebClientID">900529806504-4343l3dbbcn57pvckj5rsu4irakujer0.apps.googleusercontent.com</string>
+</resources>

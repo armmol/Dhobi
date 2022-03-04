@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "900529806504",
+    "project_id": "dhobi-93c5f",
+    "storage_bucket": "dhobi-93c5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900529806504:android:03fbe11592717cb774b69d",
+        "android_client_info": {
+          "package_name": "com.example.dhobi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900529806504-no67nvruei9uc8ffmt9t8nl4mpqcgble.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhobi",
+            "certificate_hash": "07240846e00fe2ea5e35d3a5137f95ea83475280"
+          }
+        },
+        {
+          "client_id": "900529806504-4343l3dbbcn57pvckj5rsu4irakujer0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA1VGvEYL3Mvi4dULwaCdyFTEfjN_fLx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900529806504-4343l3dbbcn57pvckj5rsu4irakujer0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
